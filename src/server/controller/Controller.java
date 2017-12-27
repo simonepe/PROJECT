@@ -5,9 +5,6 @@ import java.util.List;
 import server.model.RockPaperScissorGame;
 import server.net.PlayerHandler;
 
-/**
- * The server side controller. All calls to the server side model pass through here.
- */
 public class Controller {
     public RockPaperScissorGame newGame;
     List<PlayerHandler> players;
